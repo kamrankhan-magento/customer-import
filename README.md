@@ -2,7 +2,11 @@
 
 composer require wireit-vendor/customer-import @dev
 
+Requirements
+PHP 7.4
 
+Tested on
+Magento 2.4.0
 
 <b>Commands to run for importing customer profiles</b>
 
