@@ -1,6 +1,6 @@
 <b>Installation</b>
 
-composer require wireit/customer-import
+composer require wireit-vendor/customer-import @dev
 
 
 
