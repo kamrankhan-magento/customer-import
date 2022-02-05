@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @author Kamran Khan
+ * @email kamran.unitedsol@gmail.com
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Module/etc/module.xsd">
+    <module name="WireIt_CustomerImport" >
+        <sequence>
+            <module name="Magento_Customer"/>
+            <module name="Magento_Store"/>
+        </sequence>
+    </module>
+</config>

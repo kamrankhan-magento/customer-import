@@ -1,0 +1,25 @@
+{
+    "name": "wireit/customer-import",
+    "description": "A magento 2 module that imports customers data from csv and json files",
+    "require": {
+        "php": "~7.4.0",
+        "magento/framework": "101.0.*"
+    },
+    "type": "magento2-module",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Kamran Khan",
+            "email": "kamran.unitedsol@gmail.com"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "WireIt\\CustomerImport\\": ""
+        }
+    },
+    "version": "1.0.0"
+}
